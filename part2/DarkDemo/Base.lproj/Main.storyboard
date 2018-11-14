@@ -712,7 +712,7 @@
                         </connections>
                     </window>
                     <connections>
-                        <outlet property="modeIndicator" destination="6Gm-qk-Xf3" id="RUj-As-MFu"/>
+                        <outlet property="modeIndicator" destination="6Gm-qk-Xf3" id="6Jf-Uj-B1q"/>
                         <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
                     </connections>
                 </windowController>

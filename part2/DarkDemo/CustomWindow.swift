@@ -17,7 +17,8 @@ class CustomWindow: NSWindowController {
             configureWindowAppearance()
         }
     }
-    
+
+    // Here we define our two images for the toolbar
     var modeIndicatorImage = NSImage(named: "ToolbarIndicator") {
         didSet {
             configureWindowAppearance()
@@ -39,8 +40,8 @@ class CustomWindow: NSWindowController {
                 window.titlebarAppearsTransparent = true
                 window.backgroundColor = windowColor
                 
+                // Setting the relevant image to the ImageView
                 modeIndicator.image = modeIndicatorImage
-                
                 
             }
         }

@@ -23,7 +23,7 @@ class ViewController: NSViewController {
     }
     
     private func updateImageViewAppearance() {
-    
+
         switch view.effectiveAppearance.bestMatch(from: [.aqua, .darkAqua]) {
             case NSAppearance.Name.aqua:
                 imageView.image = DarkDemo.imageOfLight

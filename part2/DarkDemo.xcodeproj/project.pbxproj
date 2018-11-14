@@ -12,7 +12,6 @@
 		5724C305219B3B29003A9D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5724C304219B3B29003A9D93 /* Assets.xcassets */; };
 		5724C308219B3B29003A9D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5724C306219B3B29003A9D93 /* Main.storyboard */; };
 		5724C311219B3BFD003A9D93 /* CustomWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5724C310219B3BFD003A9D93 /* CustomWindow.swift */; };
-		57A44098219C083E002B9F04 /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A44097219C083E002B9F04 /* CustomImage.swift */; };
 		57DCAB8F219C148300B3F6EF /* DarkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DCAB8E219C148300B3F6EF /* DarkDemo.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 		5724C309219B3B29003A9D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5724C30A219B3B29003A9D93 /* DarkDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkDemo.entitlements; sourceTree = "<group>"; };
 		5724C310219B3BFD003A9D93 /* CustomWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWindow.swift; sourceTree = "<group>"; };
-		57A44097219C083E002B9F04 /* CustomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
 		57DCAB8E219C148300B3F6EF /* DarkDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +65,6 @@
 				5724C309219B3B29003A9D93 /* Info.plist */,
 				5724C30A219B3B29003A9D93 /* DarkDemo.entitlements */,
 				5724C310219B3BFD003A9D93 /* CustomWindow.swift */,
-				57A44097219C083E002B9F04 /* CustomImage.swift */,
 			);
 			path = DarkDemo;
 			sourceTree = "<group>";
@@ -145,7 +142,6 @@
 				5724C303219B3B27003A9D93 /* ViewController.swift in Sources */,
 				5724C301219B3B27003A9D93 /* AppDelegate.swift in Sources */,
 				57DCAB8F219C148300B3F6EF /* DarkDemo.swift in Sources */,
-				57A44098219C083E002B9F04 /* CustomImage.swift in Sources */,
 				5724C311219B3BFD003A9D93 /* CustomWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
