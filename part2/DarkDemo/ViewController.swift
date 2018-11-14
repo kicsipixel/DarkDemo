@@ -12,6 +12,8 @@ class ViewController: NSViewController {
     
     private var appearanceChangeObservation: NSKeyValueObservation?
 
+    @IBOutlet var imageView: NSImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,11 +26,11 @@ class ViewController: NSViewController {
     
         switch view.effectiveAppearance.bestMatch(from: [.aqua, .darkAqua]) {
             case NSAppearance.Name.aqua:
-            print("aq")
+                imageView.image = DarkDemo.imageOfLight
             case NSAppearance.Name.darkAqua:
-            print("da")
+                imageView.image = DarkDemo.imageOfDark
             default:
-            print("lofasz")
+                imageView.image = DarkDemo.imageOfLight
         }
     }
     
